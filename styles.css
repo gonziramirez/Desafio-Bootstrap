@@ -108,6 +108,12 @@ body {
     background-repeat: no-repeat;
 }
 
+.bg-gradient1{
+    background-image: linear-gradient(to bottom, #ff3766, #c03a82, #77417f, #3c3a60, #222831);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 /* Servicios */
 #servicios {
     background-image: linear-gradient(to bottom, #ff3766, #c03a82, #77417f, #3c3a60, #222831);
@@ -184,3 +190,12 @@ textarea{
 }
 
 /* FIN CONTACTO */
+
+/* INICIO UBICACIÓN */
+
+.ubiGoogle{
+    font-size: 5rem;
+}
+
+
+/* FIN  UBICACIÓN */
