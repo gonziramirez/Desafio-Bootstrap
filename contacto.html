@@ -35,17 +35,34 @@
       </nav>
     </div>
   </header>
-  <section>
-    <div class="container-fluid mainP text-center d-flex flex-column justify-content-around">
-      <!-- ITEMS PRINCIPAL -->
-      <h1 class="text-light"> VALPARAISO TENIS FÚTBOL</h1> <!-- Titulo Principal -->
-      <p class="text-light">Somos una empresa familiar dedicada al deporte, contamos con canchas de tenis , fútbol,
-        quincho para asados y eventos. <br> Festejamos cumpleaños, eventos para empresas, hacemos torneos,etc.</p>
-      <!-- Parrafo de titulo -->
-      <a class="btnP text-decoration-none font-weight-bold" href="turnos.html">RESERVAR TURNO</a>
-      <!-- Boton para reservar turno -->
-    </div>
+
+  <section class="bg-gradient">
+    <form action="" class="form-contacto d-flex flex-column">
+      <h1 class="text-white text-center">CONTACTANOS</h1>
+      <h4 class="text-white text-center">Datos Personales</h4>
+      <input type="text" name="nombre-apellido" id="nombre-apellido" placeholder="Ingresa tu nombre"
+        class="bg-transparent border-white text-white rounded mb-1 p-1" required>
+      <input type="email" name="email" id="email" placeholder="Ingresa tu email"
+        class="bg-transparent border-white text-white rounded mb-1 p-1" required>
+      <input type="tel" name="telefono" id="telefono" placeholder="Ingresa tu telefono"
+        class="bg-transparent border-white text-white rounded mb-1 p-1" required>
+      <label class="text-white" for="sexo">Sexo</label>
+      <select class="sexos text-white bg-transparent border-white rounded mb-1 p-1" name="sexo" id="sexo">
+        <option class="sexos bg-darkGrey" value="hombre">Hombre</option>
+        <option class="sexos bg-darkGrey" value="mujer">Mujer</option>
+        <option class="sexos bg-darkGrey" value="otro">Otro</option>
+      </select>
+      <textarea name="" id="" cols="20" rows="10" class="bg-transparent border-white text-white rounded"
+        required></textarea>
+      <p class="text-white"><input type="checkbox" id="terminos" required>Estoy de acuerdo con los <a href="">Terminos y
+          Condiciones</a></p>
+      <button class="btnC">ENVIAR CONSULTA</button>
+    </form>
   </section>
+
+
+
+
   <footer>
     <div class="container-fluid bg-darkGrey">
       <div class="row d-flex flex-column align-items-center justify-content-center">
